@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css">
+    
+</head>
+<style>
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #123c46;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links li a:hover {
+    color: #f39c12;
+}
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: white;
+    width: 150px;
+    list-style: none;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.dropdown-menu li {
+    padding: 12px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+    
+</style>
+<body>
+
+
+
+<header>
+   
+   
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="logo.pag/logo.1.png" alt="Beauty Of Beaches">Beuty of Beaches
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+
+        <li class="dropdown">
+            <a href="#">Zones ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">North Zone</a></li>
+                <li><a href="#">East Zone</a></li>
+                <li><a href="#">West Zone</a></li>
+                <li><a href="#">South Zone</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+</header>
+<main>
+    
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image slide/image t-1.avif" class="d-block w-100" alt="image not found">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="image slide/imaget-2.avif" class="d-block w-100" alt="image not found ">
+    </div>
+    <div class="carousel-item">
+      <img src="image slide/imaget-3.avif" class="d-block w-100" alt="image not found">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section>
+    <div>
+        <h4>Featured Beach Destinations
+</h4>
+    </div>
+</section>
+
+
+
+
+</main>
+<footer></footer>
+
+
+
+  
+
+
+
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
